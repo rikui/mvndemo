@@ -10,6 +10,9 @@ public class HelloWorldTest {
 		HelloWorld hw = new HelloWorld();
 			int ss= hw.add(1, 1);
 			Assert.assertEquals(ss, 2);
+			
+			int ss2= hw.add(1, 2);
+			Assert.assertEquals(ss2, 3);
 	}
 	
 	
